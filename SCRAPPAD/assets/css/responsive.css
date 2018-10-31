@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* CSS Document */
+@media only screen and (max-width:1860px) {
+.services_section::before, .services_section::after {
+	background-size: 100% auto;
+	width: 23%;
+}
+.services_section::after {
+	background-position: top left;
+}
+.img-mouse {
+	width: 15%;
+}
+}
+
+@media only screen and (max-width:1600px) {
+.mainHeader .container {
+	width: 100%;
+}
+.overlay-portfolio .content-port span h2 {
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+.overlay-portfolio .content-port p {
+	font-size: 14px;
+	line-height: 21px;
+}
+.overlay-portfolio .content-port span a {
+	font-size: 13px;
+	margin-top: 15px;
+	padding: 8px 15px;
+}
+.overlay-portfolio {
+	padding: 10px;
+	position: absolute;
+	right: 0px;
+	width: 100%;
+}
+.portfolios {
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.portfolio-main {
+	margin-bottom: 0px;
+}
+.services_section::before {
+	top: 0px;
+}
+}
+
+@media only screen and (max-width:1400px) {
+.img-mouse {
+	width: 13%;
+}
+p {
+	font-size: 15px;
+}
+}
+
+@media only screen and (max-width:1365px) {
+.navbar-main-menu .navbar-brand {
+	max-width: 250px;
+}
+.navbar-main-menu .navbar-brand img {
+	max-width: 100%;
+}
+.navbar-main-menu ul li a {
+	font-size: 12px;
+}
+.navbar-main-menu ul {
+	margin: 36px auto 0;
+}
+.phone-right {
+	margin-top: 39px;
+}
+.projects_section .block-area .heading-lg {
+	font-size: 40px;
+}
+.testimonial-sections {
+	width: 90%;
+	margin-left: 5%;
+}
+}
+
+@media only screen and (max-width:1169px) {
+h1 {
+	font-size: 55px;
+}
+h2 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 16px;
+}
+.portfolios .col-md-3 {
+	width: 50%;
+}
+.portfolios .col-md-3 img {
+	width: 100%;
+}
+.portfolios .col-md-3:nth-child(3) {
+	clear: left;
+}
+.navbar-main-menu ul li {
+	margin: 0 6px;
+	position: relative;
+}
+.phone-right a {
+	font-size: 12px;
+}
+.testimonial_section .client-image > img {
+	max-width: 100px;
+}
+.testimonial_section .info-data > p {
+	line-height: 22px;
+}
+.main-fullscreen .slider_info a {
+	font-size: 12px;
+}
+.container {
+	width: 100%;
+}
+	.testimonial-sections .carousel-control.right {
+ 
+  right: -104px;
+}
+}
+
+@media only screen and (max-width:1023px) {
+.services-area li a span.overlay-div h4 {
+	margin-bottom: 5px;
+}
+.services-area li a span.overlay-div {
+	padding: 15px;
+}
+.projects_section .block-area p {
+	font-size: 13px;
+	line-height: 15px;
+	min-height: 35px;
+}
+.projects_section .block-area .heading-lg {
+	font-size: 30px;
+}
+.img-main-ico > img {
+	max-height: 35px;
+}
+.testimonial_section .info .title-data::before {
+	background-size: 100% auto;
+	width: 25px;
+}
+.testimonial-sections .carousel-control.left {
+	left: -88px;
+}
+.testimonial-sections .carousel-control.right {
+	right: -72px;
+}
+.client_video {
+	margin-top: 50%;
+	transform: translateY(-50%);
+}
+.main-footer .col-md-3 {
+	width: 50%;
+}
+.main-footer .col-md-3:nth-child(3) {
+	clear: left;
+}
+.footer-data.partners {
+	padding-left: 0px;
+}
+.navbar-header {
+	float: left;
+	width: 100%;
+}
+.navbar-main-menu .navbar-brand {
+	display: table;
+	margin: 15px auto;
+	float: none;
+}
+.navbar-main-menu ul {
+	margin: 0 auto;
+}
+.phone-right {
+	margin-top: 3px;
+}
+h1 {
+	font-size: 40px;
+}
+.main-fullscreen .slider_info p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 22px;
+	margin-top: 5px;
+}
+.navbar-collapse {
+	float: left;
+	width: auto;
+	padding-right: 0px;
+}
+.main-fullscreen {
+	min-height: 700px;
+}
+}
